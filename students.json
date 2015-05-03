@@ -1,0 +1,20 @@
+{
+  "students": [
+    {
+      "name": "Steven Mamolo",
+      "pageName": "/students/stevenmamolo/Weekend%20Workshop%201.html"
+    },
+    {
+      "name": "Chasen Brutocao",
+      "pageName": "/students/chasenbrutocao/page.html"
+    },
+    {
+      "name": "Bora Yuksel",
+      "pageName": "/students/borayuksel/page.html"
+    },
+    {
+      "name": "Elaine You",
+      "pageName": "/students/elaineyou/page.html"
+    }    
+  ]
+}
