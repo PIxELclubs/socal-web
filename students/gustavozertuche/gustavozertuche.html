@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<head>
+  <title>Gustavo Zertuche</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+    <script src="gustavozertuche.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="gustavozertuche_jQuery.js"></script>
+  <script src="llp-1.5.1.min.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+  <style type="text/css">
+    body {
+      background-color: #cccccc;
+    }
+    .heading {
+      text-align: center;
+    }
+    .content {
+      text-align: center;
+    }
+    .jumbotron.content {
+      background-size: 100%;
+    }
+    #contentone {
+      background-image: url('http://i.kinja-img.com/gawker-media/image/upload/s--hmq_6VI3--/c_fit,fl_progressive,q_80,w_636/hycwchbyyjdhr3fmhlgu.jpg');
+    }
+    #contenttwo {
+      background-image: url('http://pbs.twimg.com/media/CCHxVThVIAAQynB.jpg');
+      background-size: 100%;
+    }
+    #contentthree {
+    }
+    .jumbotron.content h2 {
+      font-family: 'Helvetica Neue', 'Arial', sans-serif;
+      color: #fff;
+      font-size: 36pt;
+      font-weight: 700;
+      text-shadow: 0 0 10px #000;
+      margin-top: 5%;
+    }
+    .jumbotron.content h2 a {
+      color: #fff;
+    }
+    .imgblured {
+      -webkit-filter: blur(5px);
+      filter: blur(5px);
+    };
+  </style>
+<body>
+  <!-- nav bar -->
+  <nav class="navbar navbar-default navbar-collapse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#gustavo">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="tech_website.html">Tech Website</a>
+      </div>
+      <div class="" id="gustavo">
+        <ul class="nav navbar-nav" style="padding-left: 20px;">
+        <!-- testing search() -->
+          <li><a onclick="queryWithPrompt()" href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+          <li><a href="#"><i class="glyphicon glyphicon-envelope"></i></a></li>
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="http://nest.sm/">News</a></li>
+          <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Featured<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="http://phoneadvisor.siterubix.com">PhoneAdvisor.com</a></li>
+            </ul>
+          <li><a href="http://ethanl.ee/">Contact</a></li>
+          <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Reviews and Info
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+          <!--<li class="divider"></li>-->
+            <li><a href="http://www.halowaypoint.com/en-us">Gaming</a></li>
+            <li><a href="http:www.phoneadvisor.siterubix.com">Phones</a></li>
+            <li><a href="#">PC's</a></li>
+            <li><a href="#">ethanl.ee</a></li>
+          </ul>
+          </li>
+        </ul>
+      <form onsubmit="queryWithNav()" class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <div class="input-group">
+<!--            <div class="input-group-addon"><i class="glyphicon glyphicon-search"></i></div>-->
+            <input type="text" id="search-input" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
+        </div>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- end of nav bar -->
+<div class="container">
+  <div class="jumbotron">
+     <h1 class="heading">Gustavo Zertuche</h1>
+        <h2 class="heading">The official website of Gustavo Zertuche.  View his personal projects, websites, and social media accounts.</h2>
+          <div class="center-block" id="sig"></div>
+  </div>
+  <div class="jumbotron content" id="contentone">
+    <h2><a href="http:www.phoneadvisor.siterubix.com">Visit Phone Advisor to get the latest reviews on smartphones and other tech.</a></h2><!--
+    <img class="center-block" src="http://i.kinja-img.com/gawker-media/image/upload/s--hmq_6VI3--/c_fit,fl_progressive,q_80,w_636/hycwchbyyjdhr3fmhlgu.jpg">-->
+  </div>
+  <div class="jumbotron content" id="contenttwo">
+    <h2><a href="http://sports.yahoo.com/mlb/">Check the latest MLB stats, scores, and highlights</a></h2>
+  </div>
+  <div class="jumbotron content" id="contentthree">
+    <h2 id="expansionOne">Projects</h2>
+    <h2 id="expandedOne">Check out my latest projects at...</h2>
+  </div>
+  </div>
+</body>

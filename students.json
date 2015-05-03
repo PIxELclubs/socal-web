@@ -1,6 +1,10 @@
 {
   "students": [
     {
+      "name": "Gustavo Zertuche",
+      "pageName": "/students/gustavozertuche/gustavozertuche.html"
+    },
+    {
       "name": "Steven Mamolo",
       "pageName": "/students/stevenmamolo/Weekend%20Workshop%201.html"
     },
@@ -19,6 +23,6 @@
     {
       "name": "Sydney Fredette",
       "pageName": "/students/sydneyfredette/PIXEL%20Workshop%201.html"
-    }    
+    }
   ]
 }
